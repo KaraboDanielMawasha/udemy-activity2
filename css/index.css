@@ -1,0 +1,231 @@
+/* html */
+body{
+  margin: 0;
+  padding: 0;
+  display:block;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.d-flex{
+  padding: 0.5rem;
+  margin: 0.6rem;
+}
+.navbar-brand{
+  visibility: hidden;
+}
+.navbar-nav{
+  margin-right: 5rem;
+}
+.nav-item{
+  padding-right: 1.8rem;
+}
+/* classes */
+
+.home-con{
+  background-color: #FFF8F3;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.hr-wel{
+  border-style: dotted;
+  border-bottom: none;
+  border-color: #FF5959;
+  border-width: 0.4rem;
+  width: 5%;
+}
+
+.prof{
+  margin-left: 60px;
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  text-align: center;
+  left: 11.25rem;
+}
+.prof-img{
+  width: 13rem;
+  height: 13rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.design-img{
+  float: right;
+  position: relative;
+  margin-right: 20px;
+  width: 35.625rem;
+  height: 35.625rem;
+  top: 20px;
+}
+.btn {
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #f21616;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 9.5rem;
+  height: 2.0rem;
+  margin-top: 3rem;
+  text-align: center;
+
+}
+
+.btn:hover {
+  background: #eba69b;
+  text-decoration: none;
+}
+
+.desc-con{
+  display: inline-block;
+  width: 100%;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #FF5959;
+  border-style: solid;
+  padding: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+.welcome-desc{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.6rem;
+  width: 60%;
+  display: inline-block;
+}
+.welcome-msg{
+  margin-top: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.625rem;
+  color: #FF5959;
+  font-weight: 200;
+}
+
+.home-container{
+  background-color: #FEECE9;
+  width: 100%;
+  height: 34.375rem;
+  border-radius: 20px;
+  padding: 15px;
+}
+/* languages */
+.prog-lan{
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+.sk{
+  margin-top: 20px;
+  display: inline-block;
+  line-height: 2;
+}
+.lans{
+  border-style: solid;
+  border-width: 0.1rem;
+  color: #FF5959;
+  width: 35%;
+  padding: 0;
+  margin: auto;
+}
+
+.skills-con{
+  display: block;
+  position: relative;
+  margin: 15px 0;
+}
+
+.flutter-con{
+  padding: 10px;
+  display: inline-block;
+  background-color: #FEECE9;
+  border-radius: 19px;
+  margin-right: 10px;
+}
+.react-con{
+  padding: 10px;
+  display: inline-block;
+  background-color: #FEECE9;
+  border-radius: 19px;
+  margin-right: 10px;
+}
+.graphic-con{
+  padding: 10px;
+  display: inline-block;
+  background-color: #FEECE9;
+  border-radius: 19px;
+  margin-right: 10px;
+}
+.web-con{
+  padding: 10px;
+  display: inline-block;
+  background-color: #FEECE9;
+  border-radius: 19px;
+}
+.skill{
+  width: 250px;
+  height: 250px;
+}
+/* footer */
+.footer{
+  margin-top: 5rem;
+  width: 100%;
+  height: 250px;
+  background-color: #FEECE9;
+}
+
+.soc-con{
+  display: inline-block;
+  margin: 3rem 20px;
+  width: 40rem;
+  position: relative;
+  left: 10rem;
+  background-color: white;
+  border-radius: 15px;
+}
+.about-me{
+  display: inline-block;
+  margin: 3rem 20px;
+  width: 40rem;
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+}
+.soc{
+  text-align: left;
+  padding-left: 10px;
+}
+.contact-me-det{
+  padding: 5px 15px;
+}
+.dis{
+  padding: 20px;
+}
+/* html tags */
+span{
+  color: black;
+  padding: .5rem;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  display: inline;
+  margin-top: -10px;
+}
